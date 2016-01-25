@@ -865,7 +865,9 @@ h3 {
 } 
 
 .footer a:first-of-type img {
-	height: 50px;
+	height: 20px;
+    width: auto;
+    margin-right: 2%;
 }
 .footer a {
 	color: #ddd;
