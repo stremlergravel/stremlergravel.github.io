@@ -860,6 +860,13 @@ h3 {
 	margin: 4% 0;
 }
 
+.footer a:first-of-type {
+	padding-left: 1%;
+} 
+
+.footer a:first-of-type img {
+	height: 50px;
+}
 .footer a {
 	color: #ddd;
 	padding-left: .5%;
