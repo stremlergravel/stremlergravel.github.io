@@ -2,6 +2,10 @@
 	light grey: #ddd;
 	dark grey: grey;
 */
+
+.col.two-even.footer {
+	margin-bottom: 0;
+}
 .topbanner {
     position: absolute;
     top: 0;
