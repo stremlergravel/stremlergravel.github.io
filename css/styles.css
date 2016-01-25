@@ -48,6 +48,12 @@
 	height: 15.2em;
 }
 
+.graveldeliver h4 a {
+	color: #d42027;
+    font-size: 1em;
+    text-decoration: none;
+}
+
 @media screen and (max-width: 1380px) {
 	#pit section {
 	height: 14.7em;
