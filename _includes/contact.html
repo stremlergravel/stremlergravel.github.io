@@ -1,0 +1,73 @@
+<div class="col fourty-sixty contact" id="contact">
+            <section>
+                <div>
+                <div class="col ten-ninety">
+                        <section>
+                            <img src="img/contacticons-03.png" alt="">
+                        </section>
+                        <section>
+                            {% for post in site.categories.location %}
+                            {{ post.content }}
+                            {% endfor %}
+                        </section>
+                </div>
+                <div class="col ten-ninety">
+                        <section>
+                            <img src="img/contacticons-02.png" alt="">
+                        </section>
+                        <section>
+                            {% for post in site.categories.phone %}
+                            {{ post.content }}
+                            {% endfor %}
+                        </section>
+                </div>
+                <div class="col ten-ninety">
+                        <section>
+                            <img src="img/contacticons-01.png" alt="">
+                        </section>
+                        <section>
+                           {% for post in site.categories.email %}
+                            {{ post.content }}
+                            {% endfor %}
+                        </section>
+                </div>
+                </div>
+            </section>
+            <section>
+                <h2>Get In Touch</h2>
+                <h4>If you'd like a quote for a project or learn more about what we do, please feel free to contact us.</h4>
+                <form name="contact_form" method="post" action="http://formspree.io/saraweinand@gmail.com">
+                    <input type="text" placeholder="name" name="name"><input type="text" placeholder="phone" name="phone">
+                    <input type="text" placeholder="email" name="email">
+                    <textarea id="message" class="input" name="message" rows="7" cols="30" placeholder="message"></textarea>
+                    <input type="submit" name="submit" id="submit" value="Send">
+                    <!--<button class="send" type="submit" value="Submit">Send</button>-->
+                </form>
+            </section>
+        </div>
+
+        <div class="col two-even testimonials">
+            <div class="title">
+                <h2>What our customers say</h2>
+            </div>
+            <section>
+                {% for post in site.categories.testimonial1 %}
+                <img src="img/{{ post.img }}" alt=""> {{ post.content }}
+                {% endfor %}
+            </section>
+            <section>
+                {% for post in site.categories.testimonial2 %}
+                <img src="img/{{ post.img }}" alt=""> {{ post.content }}
+                {% endfor %}
+            </section>
+            <section>
+                {% for post in site.categories.testimonial3 %}
+                <img src="img/{{ post.img }}" alt=""> {{ post.content }}
+                {% endfor %}
+            </section>
+            <section>
+                {% for post in site.categories.testimonial4 %}
+                <img src="img/{{ post.img }}" alt=""> {{ post.content }}
+                {% endfor %}
+            </section>
+        </div>
