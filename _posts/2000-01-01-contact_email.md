@@ -8,4 +8,3 @@ office@stremlergravel.net
 
 <span>Project Estimates:</span>
 steve@stremlergravel.net
-
