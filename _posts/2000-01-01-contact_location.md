@@ -8,4 +8,3 @@ title :  Location & Hours
 
 ###HOURS
 Monday-Friday<br>7:00am-5:00pm
-
